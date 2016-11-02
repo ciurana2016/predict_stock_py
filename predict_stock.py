@@ -78,7 +78,7 @@ def stock_prediction():
     model.add(Dense(8, input_dim=1, activation='relu'))
     model.add(Dense(1))
     model.compile(loss='mean_squared_error', optimizer='adam')
-    model.fit(trainX, trainY, nb_epoch=20, batch_size=2, verbose=2)
+    model.fit(trainX, trainY, nb_epoch=200, batch_size=2, verbose=2)
 
     # Our prediction for tomorrow
     prediction = model.predict(np.array([dataset[0]]))
