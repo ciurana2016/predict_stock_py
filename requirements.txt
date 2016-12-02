@@ -1,0 +1,8 @@
+numpy
+scipy
+tweepy
+textblob
+requests
+pyyaml
+tensorflow
+keras
