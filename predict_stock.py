@@ -10,10 +10,10 @@ from textblob import TextBlob
 
 
 # First we login into twitter
-consumer_key = 'hxYAbUapce865P5xF7TkE5qwG'
-consumer_secret = 'jNoLT0RjrmBhnIa9OtHouiBwahnnz63eLgubh7gTKt6ImMFOCA'
-access_token = '745177828212105216-I4FM0l27G2042mx3C7KC1ImBw3xUw0N'
-access_token_secret = 'WtwHFaRbLNAkLcEN9xpeAeBwIffQCR1li0L2kyclmLp95'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 user = tweepy.API(auth)
